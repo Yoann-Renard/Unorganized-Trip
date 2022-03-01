@@ -13,7 +13,7 @@
             android:name=".SwapChoiceActivity"
             android:exported="false" />
         <activity
-            android:name=".InformationActivity"
+            android:name=".LocationDetailsActivity"
             android:exported="false" />
         <activity
             android:name=".NavigationActivity"
