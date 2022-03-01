@@ -1,0 +1,33 @@
+{
+    "Toulon-Monaco": {
+        "restaurants": {
+            "Restaurant Le Goustado Tropezien": {
+                "description": "Restauration rapide sur place ou à emporter. produits frais, fait maison.",
+                "prix": 3,
+                "familial": 2,
+                "confort": 3,
+                "sportivité": 1
+            },
+            "Brasserie Tropézienne": {
+                
+            }
+        },
+        "hotels": {},
+        "lieux": {},
+        "commentaires": []
+    },
+
+    "Toulon-Bordeaux": {
+        "restaurants": {},
+        "hotels": {},
+        "lieux": {},
+        "commentaires": []
+    },
+
+    "Toulon-Lyon": {
+        "restaurants": {},
+        "hotels": {},
+        "lieux": {},
+        "commentaires": []
+    }
+}

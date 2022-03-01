@@ -4,10 +4,10 @@ type de location:
   -lieux touristiques
 
 filtres:
-  -prix ( fourchette )
-  -familial ( /10 )
-  -confort ( /10 )
-  -sportivité ( /10 )
+  -prix ( /3 )
+  -familial ( /3 )
+  -confort ( /3 )
+  -sportivité ( /3 )
 
 
 destinations:
