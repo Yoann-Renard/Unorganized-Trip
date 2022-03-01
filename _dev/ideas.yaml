@@ -5,7 +5,7 @@ type de location:
 
 filtres:
   -prix ( fourchette )
-  -famillial ( /10 )
+  -familial ( /10 )
   -confort ( /10 )
   -sportivité ( /10 )
 
