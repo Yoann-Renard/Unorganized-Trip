@@ -7,4 +7,6 @@
     <string name="password">Password</string>
     <string name="newAccount">New to Unorganized Trip?</string>
     <string name="alrAccount">Already have an account?</string>
+
+    <string name="coError">Erreur de connexion</string>
 </resources>
