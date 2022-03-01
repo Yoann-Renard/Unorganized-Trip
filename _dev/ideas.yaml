@@ -1,0 +1,32 @@
+type de location:
+  -restaurants
+  -hotels
+  -lieux touristiques
+
+filtres:
+  -prix ( fourchette )
+  -famillial ( /10 )
+  -confort ( /10 )
+  -sportivité ( /10 )
+
+
+destinations:
+  - Monaco:
+    - Saint Tropez
+    - Fréjus
+    - Montauroux
+    - Cannes
+    - Nice
+    - Cap d'ails
+
+  - Lyon:
+    -
+    -
+
+  - Bordeaux:
+    - Aix
+    - Monpelier
+    - Sète
+    - Rocamadour
+    - Périgueux
+    - Libourne
