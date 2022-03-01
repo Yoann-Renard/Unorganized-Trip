@@ -10,6 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UnorganizedTripApp">
         <activity
+            android:name=".SwapChoiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InformationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NavigationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TripDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
