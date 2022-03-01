@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "370562953238",
+    "project_id": "unorganized-trip",
+    "storage_bucket": "unorganized-trip.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370562953238:android:849c99758b8cce478a0537",
+        "android_client_info": {
+          "package_name": "fr.isen.unorganizedtripapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370562953238-2mtncacjr6c4qni9o7a5oe0au059r2qh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh-iAkyWH4wPVCcfFzzbQxAixetsuVTZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370562953238-2mtncacjr6c4qni9o7a5oe0au059r2qh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
