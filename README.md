@@ -1,5 +1,5 @@
 # Unorganized Trip
-Unorganized Trip est une application permettant d'organiser au dernier moment un voyage, vous avez juste à entrer une ville de départ et un d'arriver, et l'application se charge de créer vos itinéraires, pauses, visites et restaurations en fonction de vos besoins et budgets.
+Unorganized Trip est une application permettant d'organiser au dernier moment un voyage, vous avez juste à entrer une ville de départ et une d'arriver, et l'application se charge de créer vos itinéraires, pauses, visites et restaurations en fonction de vos besoins et budgets.
 
 ## Prototype en ligne
 Preuve de concept faite avec Adalo: https://previewer.adalo.com/b8c3bf1b-a917-4382-af99-0157e52f51e2
