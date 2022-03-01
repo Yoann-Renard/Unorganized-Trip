@@ -22,6 +22,11 @@ class LoginActivity : AppCompatActivity() {
             login()
         }
 
+        binding.signUpButton.setOnClickListener {
+            val intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
+        }
+
         auth = Firebase.auth
     }
 
@@ -29,13 +34,13 @@ class LoginActivity : AppCompatActivity() {
         val email = binding.loginEmail.text.toString()
         val password = binding.loginPassword.text.toString()
 
-        auth.signInWithEmailAndPassword(email, password).addOnCompleteListener { task ->
+        auth.signInWithEmailAndPassword(email, password).addOnCompleteListener() { task ->
             if (task.isSuccessful) {
                 val intent = Intent(this, HomeActivity::class.java)
                 startActivity(intent)
                 finish()
             } else {
-                Toast.makeText(this, "Erreur de connexion", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, R.string.coError, Toast.LENGTH_SHORT).show()
             }
         }
     }
