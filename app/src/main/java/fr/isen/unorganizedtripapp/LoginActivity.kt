@@ -30,9 +30,17 @@ class LoginActivity : AppCompatActivity() {
         auth = Firebase.auth
     }
 
+    override fun onStart() {
+        super.onStart()
+        val currentUser = auth.currentUser
+        if (currentUser != null) {
+            startActivity(Intent(this, HomeActivity::class.java))
+        }
+    }
+
     private fun login() {
-        val email = binding.loginEmail.text.toString()
-        val password = binding.loginPassword.text.toString()
+        val email = binding.loginEmail.text.toString().trim()
+        val password = binding.loginPassword.text.toString().trim()
 
         auth.signInWithEmailAndPassword(email, password).addOnCompleteListener() { task ->
             if (task.isSuccessful) {

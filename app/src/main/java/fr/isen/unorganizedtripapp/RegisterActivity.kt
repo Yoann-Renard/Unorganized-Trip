@@ -30,12 +30,21 @@ class RegisterActivity : AppCompatActivity() {
         auth = Firebase.auth
     }
 
+    override fun onStart() {
+        super.onStart()
+        val currentUser = auth.currentUser
+        if (currentUser != null) {
+            startActivity(Intent(this, HomeActivity::class.java))
+        }
+    }
+
     private fun register() {
-        val email = binding.registerEmail.text.toString()
-        val password = binding.registerPassword.text.toString()
+        val email = binding.registerEmail.text.toString().trim()
+        val password = binding.registerPassword.text.toString().trim()
 
         auth.createUserWithEmailAndPassword(email, password).addOnCompleteListener() { task ->
             if (task.isSuccessful) {
+                Toast.makeText(this, "register ok", Toast.LENGTH_SHORT).show()
                 val intent = Intent(this, HomeActivity::class.java)
                 startActivity(intent)
                 finish()
