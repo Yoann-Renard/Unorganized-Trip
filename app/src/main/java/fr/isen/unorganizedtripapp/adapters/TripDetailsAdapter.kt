@@ -12,7 +12,7 @@ import fr.isen.unorganizedtripapp.network.TripDetails
 import org.json.JSONArray
 import org.json.JSONObject
 
-class TripDetailsAdapter (private val loc: List<TripDetails> ): RecyclerView.Adapter<TripDetailsAdapter.TripDetailViewHolder>() {
+class TripDetailsAdapter (private val loc: ArrayList<TripDetails> ): RecyclerView.Adapter<TripDetailsAdapter.TripDetailViewHolder>() {
     lateinit var context: Context
 
     class TripDetailViewHolder(binding: CellTripDetailsBinding): RecyclerView.ViewHolder(binding.root){

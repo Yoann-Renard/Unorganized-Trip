@@ -10,6 +10,7 @@ import com.google.firebase.database.ValueEventListener
 import com.google.firebase.database.ktx.database
 import com.google.firebase.database.ktx.getValue
 import com.google.firebase.ktx.Firebase
+import fr.isen.unorganizedtripapp.network.TripDetails
 import kotlin.reflect.typeOf
 
 class TripDetailsActivity : AppCompatActivity() {
@@ -30,6 +31,7 @@ class TripDetailsActivity : AppCompatActivity() {
                 val value = snapshot.value
                 Log.d(TAG, "Value is: " + value)
                 Log.d(TAG, "Type of value is: " + value!!::class.simpleName)
+                parseData(value as HashMap<String, HashMap<String, HashMap<String, String>>>)
             }
 
             override fun onCancelled(error: DatabaseError) {
@@ -39,5 +41,20 @@ class TripDetailsActivity : AppCompatActivity() {
         })
 
 
+    }
+    fun parseData(data: HashMap<String, HashMap<String, HashMap<String, String> > >){
+        val list = ArrayList<TripDetails>()
+        for (city_key in data.keys) {
+            for (type_key in data[city_key]!!.keys){
+                for (name_key in data[city_key]?.get(type_key)!!.keys) {
+                    /*Log.d(TAG, "city_key is: " + city_key)
+                    Log.d(TAG, "type_key is: " + type_key)
+                    Log.d(TAG, "name_key is: " + name_key)*/
+                    val TD = TripDetails()
+                    TD.detail_name = name_key
+                    //TD.detail_img_url = data[city_key]?.get(type_key)?.get(name_key)?.get("img").toString()
+                }
+            }
+        }
     }
 }
