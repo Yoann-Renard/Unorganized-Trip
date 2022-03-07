@@ -1,20 +1,188 @@
 {
     "Toulon-Monaco": {
-        "restaurants": {
-            "Restaurant Le Goustado Tropezien": {
-                "description": "Restauration rapide sur place ou à emporter. produits frais, fait maison.",
-                "prix": 3,
-                "familial": 2,
-                "confort": 3,
-                "sportivité": 1
+        "Saint-Tropez": {
+            "restaurants": {
+                "Restaurant Le Goustado Tropezien": {
+                    "description": "Restauration rapide sur place ou à emporter. produits frais, fait maison.",
+                    "prix": 3,
+                    "familial": 2,
+                    "confort": 3,
+                    "sportivité": 1
+                },
+                "Brasserie Tropézienne": {
+                    "description": "Après 20 années passées sur Paris dans le milieu des Brasseries et Bistrots Parisiens, Ludovic Pinaud fils d’Helene Dufenieux ex Maître nageur de la Piscine Municipale portant son nom et Laurent Raphanel, deux enfants du Golfe de Saint Tropez reviennent sur leurs terres d’origine.",
+                    "prix": 2,
+                    "familial": 2,
+                    "confort": 2,
+                    "sportivité": 1
+                },
+                "L'Aventure": {
+                    "description": "Petit restaurant typique style bistro petite terrasse.",
+                    "prix": 2,
+                    "familial": 2,
+                    "confort": 3,
+                    "sportivité": 1
+                }
             },
-            "Brasserie Tropézienne": {
-                
+            "hotels": {
+                "Hôtel Le Yaca Saint-Tropez": {
+                    "description": "Construit en 1722 comme hôtel particulier, cet hôtel raffiné est situé au pied de la citadelle de Saint-Tropez, à 2 minutes à pied du port et à 6 minutes de marche du musée de l'Annonciade.",
+                    "prix": 2,
+                    "familial": 3,
+                    "confort": 2,
+                    "sportivité": 1
+                },
+                "Airelles Saint-Tropez, Pan Dei Palais": {
+                    "description": "Installé dans un bâtiment de charme de 1835 situé à 6 minutes à pied du port de plaisance de Saint-Tropez.",
+                    "prix": 3,
+                    "familial": 3,
+                    "confort": 3,
+                    "sportivité": 1
+                }
+            },
+            "lieux": {
+                "Port de plaisance": {
+                    "description": "L’un des plus beau port de France.",
+                    "prix": 1,
+                    "familial": 3,
+                    "confort": 1,
+                    "sportivité": 1
+                },
+                "La citadelle de Saint-Tropez": {
+                    "description": "Le musée propose ainsi de découvrir aussi bien des activités qui occupèrent pendant des siècles des milliers de marins de la cité, comme le cabotage ou la pêche, que des navigations ou des carrières plus personnelles à l’image de celles du capitaine Annibal Bérard à Zanzibar ou du capitaine Morello sur les côtes indiennes.",
+                    "prix": 2,
+                    "familial": 3,
+                    "confort": 2,
+                    "sportivité": 1
+                },
+                "Phare de Saint-Tropez": {
+                    "description": "Le premier phare de Saint-Tropez, appelé « phare rouge » fut édifié en 1866 au bout de la grande jetée. C'était un feu fixe rouge plus puissant sur une tourelle cylindrique en maçonnerie de 15 m de hauteur. En 1932, il est électrifié, et devient un feu rouge à trois occultations toutes les quinze secondes.",
+                    "prix": 1,
+                    "familial": 2,
+                    "confort": 2,
+                    "sportivité": 2
+                }
             }
         },
-        "hotels": {},
-        "lieux": {},
+        "Fréjus": {
+            "restaurants": {
+                "Lou Caléu": {
+                    "description": "Pizzas artisanales au feu de bois. Sur le principe de la vente à emporter, l'équipe accueillante de Lou Calèu vous embarque pour une pause gourmande vous faisant découvrir ses spécialités réalisées à base de produits frais selectionnés avec soins.",
+                    "prix": 1,
+                    "familial": 2,
+                    "confort": 2,
+                    "sportivité": 1
+                },
+                "Brasserie Jacques ": {
+                    "description": "Une brasserie sur le port de Fréjus à essayer ! Qualité et personnel professionnel garantis.",
+                    "prix": 2,
+                    "familial": 2,
+                    "confort": 3,
+                    "sportivité": 1
+                },
+                "La maison du poulet ": {
+                    "description": "Un rapport qualité prix juste exceptionnel, des plats qui changent régulièrement et des sauces justes sublimes.",
+                    "prix": 1,
+                    "familial": 2,
+                    "confort": 3,
+                    "sportivité": 1
+                }
+            },
+            "hotels": {
+                "Hôtel de la Flore": {
+                    "description": "L’Hôtel « Le Flore » est un hôtel de charme et familial, classé 2 étoiles, composé de 11 chambres.",
+                    "prix": 2,
+                    "familial": 3,
+                    "confort": 2,
+                    "sportivité": 1
+                },
+                "La Bastide du Clos des Roses": {
+                    "description": " Le Clos des Roses est un véritable havre de verdure situé entre Cannes et Saint-Tropez, à seulement 40 minutes de l’aéroport de Nice. Lieu d'exception, il s’inscrit parfaitement dans la nouvelle ère de l’oenotourisme. Autour de l’activité centrale du vignoble qui s'inscrit dans la riche palette des Côtes de Provence, le Clos des Roses abrite également un petit hôtel et restaurant de charme et propose de la location de salles de réception et séminaires pour l’événementiel.",
+                    "prix": 3,
+                    "familial": 3,
+                    "confort": 3,
+                    "sportivité": 1
+                },
+                "Hôtel Frejus Sable et Soleil": {
+                    "description": "L'hôtel Sable et Soleil est situé dans le centre, à 100 mètres de Port Fréjus et à 400 mètres des plages. Vous pourrez profiter des plages de sable fin de la Côte d'Azur.",
+                    "prix": 1,
+                    "familial": 3,
+                    "confort": 2,
+                    "sportivité": 1
+                }
+            },
+            "lieux": {
+                "Arènes de Fréjus": {
+                    "description": "Cette immense arène romaine datant du 1er siècle accueille chaque été des spectacles vivants et concerts.",
+                    "prix": 1,
+                    "familial": 2,
+                    "confort": 2,
+                    "sportivité": 2
+                },
+                "Site de Malpasset": {
+                    "description": "Belle balade, le site est peu aménagé et garde un côté sauvage.",
+                    "prix": 1,
+                    "familial": 1,
+                    "confort": 2,
+                    "sportivité": 3
+                }
+            }
+        },
+        "Montauroux": {
+            "restaurants": {
+                "Histoire sans faim": {
+                    "description": "Un petit restaurant familial où déjeuner et dîner délicieusement. Une viande exceptionnelle importée tout droit du charolais.",
+                    "prix": 2,
+                    "familial": 2,
+                    "confort": 3,
+                    "sportivité": 1
+                },
+                "Brasserie du clos": {
+                    "description": "Souhaitez-vous passer une soirée agréable et accueillante autour d’un repas français dans notre restaurant ? Dans notre restaurant Brasserie du clos, nous servons des plats variés et succulents que vous pourrez savourer dans une atmosphère authentique. Profitez des après-midi estivales dans notre terrasse animée.",
+                    "prix": 1,
+                    "familial": 2,
+                    "confort": 2,
+                    "sportivité": 1
+                }
+            },
+            "hotels": {
+                "Le gîte du petit Puits": {
+                    "description": "Le Gîte du Petit Puits vous accueille entre mer et montagne. Il possède une terrasse donnant sur sa propre piscine privée et sur les montagnes au loin.",
+                    "prix": 12,
+                    "familial": 3,
+                    "confort": 2,
+                    "sportivité": 1
+                },
+                "Baboo Lodge Montauroux Var": {
+                    "description": "Venez vous détendre et vous ressourcer dans notre superbe Lodge Balinais à Montauroux (Var).",
+                    "prix": 3,
+                    "familial": 2,
+                    "confort": 3,
+                    "sportivité": 1
+                }
+            },
+            "lieux": {
+                "Le Jardin de Bambous du Mandarin": {
+                    "description": "Un lieu magique où beauté, quiétude et bienveillance sont omniprésentes.",
+                    "prix": 1,
+                    "familial": 2,
+                    "confort": 2,
+                    "sportivité": 2
+                },
+                "Le poont des Tuves": {
+                    "description": "Balade sur sentier balisés et lieux de baignades.",
+                    "prix": 1,
+                    "familial": 2,
+                    "confort": 2,
+                    "sportivité": 3
+                }
+            }
+        },
+        "Cannes": {},
+        "Nice":{},
+        "Cap d'ails": {},
         "commentaires": []
+
     },
 
     "Toulon-Bordeaux": {
