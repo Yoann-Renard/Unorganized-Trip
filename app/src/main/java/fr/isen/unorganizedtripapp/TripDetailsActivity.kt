@@ -16,7 +16,7 @@ import kotlin.reflect.typeOf
 
 class TripDetailsActivity : AppCompatActivity() {
     val database = Firebase.database("https://unorganized-trip-default-rtdb.europe-west1.firebasedatabase.app/")
-    val toulonMonacoRef = database.getReference("trajets")
+    val toulonMonacoRef = database.getReference("Toulon-Monaco")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,7 +32,7 @@ class TripDetailsActivity : AppCompatActivity() {
                 val value = snapshot.value
                 Log.d(TAG, "Value is: " + value)
                 Log.d(TAG, "Type of value is: " + value!!::class.simpleName)
-               // parseData(value as HashMap<String, HashMap<String, HashMap<String, String>>>)
+                parseData(value as HashMap<String, HashMap<String, HashMap<String, String>>>)
             }
 
             override fun onCancelled(error: DatabaseError) {
@@ -48,9 +48,9 @@ class TripDetailsActivity : AppCompatActivity() {
         for (city_key in data.keys) {
             for (type_key in data[city_key]!!.keys){
                 for (name_key in data[city_key]?.get(type_key)!!.keys) {
-                    /*Log.d(TAG, "city_key is: " + city_key)
+                    Log.d(TAG, "city_key is: " + city_key)
                     Log.d(TAG, "type_key is: " + type_key)
-                    Log.d(TAG, "name_key is: " + name_key)*/
+                    Log.d(TAG, "name_key is: " + name_key)
                     val TD = TripDetails()
                     TD.detail_name = name_key
                 }
