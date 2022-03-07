@@ -25,6 +25,7 @@ class RegisterActivity : AppCompatActivity() {
         binding.signInButton.setOnClickListener {
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
+            finish()
         }
 
         auth = Firebase.auth
@@ -35,6 +36,7 @@ class RegisterActivity : AppCompatActivity() {
         val currentUser = auth.currentUser
         if (currentUser != null) {
             startActivity(Intent(this, HomeActivity::class.java))
+            finish()
         }
     }
 
@@ -44,7 +46,6 @@ class RegisterActivity : AppCompatActivity() {
 
         auth.createUserWithEmailAndPassword(email, password).addOnCompleteListener() { task ->
             if (task.isSuccessful) {
-                Toast.makeText(this, "register ok", Toast.LENGTH_SHORT).show()
                 val intent = Intent(this, HomeActivity::class.java)
                 startActivity(intent)
                 finish()

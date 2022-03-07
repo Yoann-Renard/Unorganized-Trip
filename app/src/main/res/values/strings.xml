@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">UnorganizedTripApp</string>
+    <string name="app_name">Unorganized Trip</string>
 
     <string name="signIn">Sign In</string>
     <string name="signUp">Sign Up</string>

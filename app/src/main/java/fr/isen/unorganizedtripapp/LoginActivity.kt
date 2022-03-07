@@ -25,6 +25,7 @@ class LoginActivity : AppCompatActivity() {
         binding.signUpButton.setOnClickListener {
             val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
+            finish()
         }
 
         auth = Firebase.auth
@@ -35,6 +36,7 @@ class LoginActivity : AppCompatActivity() {
         val currentUser = auth.currentUser
         if (currentUser != null) {
             startActivity(Intent(this, HomeActivity::class.java))
+            finish()
         }
     }
 
