@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "370562953238",
+    "firebase_url": "https://unorganized-trip-default-rtdb.europe-west1.firebasedatabase.app",
     "project_id": "unorganized-trip",
     "storage_bucket": "unorganized-trip.appspot.com"
   },
