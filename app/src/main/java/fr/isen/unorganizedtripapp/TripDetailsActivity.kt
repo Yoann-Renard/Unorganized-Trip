@@ -9,14 +9,13 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.ValueEventListener
 import com.google.firebase.database.ktx.database
 import com.google.firebase.database.ktx.getValue
-import com.google.firebase.database.util.JsonMapper
 import com.google.firebase.ktx.Firebase
 import fr.isen.unorganizedtripapp.network.TripDetails
 import kotlin.reflect.typeOf
 
 class TripDetailsActivity : AppCompatActivity() {
     val database = Firebase.database("https://unorganized-trip-default-rtdb.europe-west1.firebasedatabase.app/")
-    val toulonMonacoRef = database.getReference("trajets")
+    val toulonMonacoRef = database.getReference("Toulon-Monaco")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,7 +31,7 @@ class TripDetailsActivity : AppCompatActivity() {
                 val value = snapshot.value
                 Log.d(TAG, "Value is: " + value)
                 Log.d(TAG, "Type of value is: " + value!!::class.simpleName)
-               // parseData(value as HashMap<String, HashMap<String, HashMap<String, String>>>)
+                parseData(value as HashMap<String, HashMap<String, HashMap<String, String>>>)
             }
 
             override fun onCancelled(error: DatabaseError) {
@@ -53,6 +52,7 @@ class TripDetailsActivity : AppCompatActivity() {
                     Log.d(TAG, "name_key is: " + name_key)*/
                     val TD = TripDetails()
                     TD.detail_name = name_key
+                    //TD.detail_img_url = data[city_key]?.get(type_key)?.get(name_key)?.get("img").toString()
                 }
             }
         }
