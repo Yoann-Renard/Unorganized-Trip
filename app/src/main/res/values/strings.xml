@@ -9,4 +9,6 @@
     <string name="alrAccount">Already have an account?</string>
 
     <string name="coError">Erreur de connexion</string>
+    <string name="text">texte</string>
+    <string name="image">image</string>
 </resources>
