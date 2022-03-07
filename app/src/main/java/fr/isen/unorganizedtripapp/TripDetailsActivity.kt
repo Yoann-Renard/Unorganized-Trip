@@ -10,6 +10,7 @@ import com.google.firebase.database.ValueEventListener
 import com.google.firebase.database.ktx.database
 import com.google.firebase.database.ktx.getValue
 import com.google.firebase.ktx.Firebase
+import kotlin.reflect.typeOf
 
 class TripDetailsActivity : AppCompatActivity() {
     val database = Firebase.database("https://unorganized-trip-default-rtdb.europe-west1.firebasedatabase.app/")
@@ -28,6 +29,7 @@ class TripDetailsActivity : AppCompatActivity() {
                 // whenever data at this location is updated.
                 val value = snapshot.value
                 Log.d(TAG, "Value is: " + value)
+                Log.d(TAG, "Type of value is: " + value!!::class.simpleName)
             }
 
             override fun onCancelled(error: DatabaseError) {
@@ -35,5 +37,7 @@ class TripDetailsActivity : AppCompatActivity() {
             }
 
         })
+
+
     }
 }
