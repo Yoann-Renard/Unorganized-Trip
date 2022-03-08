@@ -1,6 +1,8 @@
 package fr.isen.unorganizedtripapp.adapters
 
+import android.content.ContentValues
 import android.content.Context
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.ImageView
@@ -28,6 +30,7 @@ class TripDetailsAdapter (private val loc: ArrayList<TripDetails> ): RecyclerVie
 
     override fun onBindViewHolder(holder: TripDetailViewHolder, position: Int) {
         val locItem = loc[position]
+        Log.d(ContentValues.TAG, "detail_name is: " + locItem.detail_name)
         holder.name.text = locItem.detail_name
         holder.time.text = locItem.detail_time
         Picasso.get()
