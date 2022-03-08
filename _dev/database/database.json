@@ -230,31 +230,292 @@
                 },
                 {
                     "nom": "Cannes",
-                    "restaurants": [{}],
-                    "hotels": [{}],
-                    "lieux": [{}]
+                    "restaurants": [
+                        {
+                            "nom": "Bobo Bistro",
+                            "img": "https://media-cdn.tripadvisor.com/media/photo-s/1b/6a/e7/7e/notre-terrasse-exterieure.jpg",
+                            "description": "Pousser la porte du Bobo Bistro au cœur de Cannes, c’est pénétrer dans un univers chaleureux et convivial où l’équipe allie l’art du service et de la gastronomie pour satisfaire une clientèle locale et touristique.",
+                            "prix": 2,
+                            "familial": 3,
+                            "confort": 2,
+                            "sportivité": 1
+                        },
+                        {
+                            "nom": "Da Laura Cannes",
+                            "img": "https://www.jacquesgantie.com/wp-content/uploads/2020/06/IMG_3143-1024x626.jpg",
+                            "description": "Un bongo de finesse et de goût. La côtelette milanaise est sublime. Les raviolis à la truffe une merveille. La panna cotta parfaite. Une maison de qualité.",
+                            "prix": 3,
+                            "familial": 2,
+                            "confort": 3,
+                            "sportivité": 1
+                        },
+                        {
+                            "nom": "Restaurant Le Vesuvio",
+                            "img": "https://media-cdn.tripadvisor.com/media/photo-s/18/dd/a4/65/le-restaurant.jpg",
+                            "description": "Restaurant sur la Croisette proche de l'hôtel Martinez.",
+                            "prix": 1,
+                            "familial": 2,
+                            "confort": 1,
+                            "sportivité": 1
+                        }
+                    ],
+                    "hotels": [
+                        {
+                            "nom": "Hôtel Novotel Suites Cannes Centre",
+                            "img": "https://hotelacannes.com/system/images/000/033/070/37347696-big.jpg",
+                            "description": "Cet hôtel sobre avec suites se trouve à 3 km du musée de la Castre, ainsi qu'à 2 km de la plage de la Croisette et de la Malmaison, où sont proposées des expositions d'art.",
+                            "prix": 2,
+                            "familial": 1,
+                            "confort": 3,
+                            "sportivité": 1
+                        },
+                        {
+                            "nom": "Hôtel Barrière Le Majestic Cannes",
+                            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Fa%C3%A7ade_Majestic.tif/lossy-page1-1200px-Fa%C3%A7ade_Majestic.tif.jpg",
+                            "description": "Offrant une vue sur la mer et situé à 2 minutes à pied de la plage, ce célèbre hôtel de luxe se trouve également à 4 minutes du casino Barrière Le Croisette et à 1 km du musée de la Castre.",
+                            "prix": 3,
+                            "familial": 2,
+                            "confort": 3,
+                            "sportivité": 1
+                        },
+                        {
+                            "nom": "Hôtel Cannes Montfleury",
+                            "img": "https://cannes.media.tourinsoft.eu/upload/Vue-terrasse-piscine-Novotel-Montfleury-2.jpg",
+                            "description": "Cet hôtel à l'ambiance détendue se trouve à 1 km des boutiques et des restaurants de la promenade de la Croisette, à 2 km du palais des festivals et des congrès de Cannes.",
+                            "prix": 2,
+                            "familial": 2,
+                            "confort": 2,
+                            "sportivité": 1
+                        }
+                    ],
+                    "lieux": [
+                        {
+                            "nom": "La Croisette",
+                            "img": "https://www.lemoniteur.fr/mediatheque/9/2/7/002181729_620x393_c.jpg",
+                            "description": "Cette longue promenade en bord de mer est bordée par les pins et les palmiers, les boutiques de luxe et les hôtels mythiques.",
+                            "prix": 1,
+                            "familial": 2,
+                            "confort": 2,
+                            "sportivité": 1
+                        },
+                        {
+                            "nom": "Le Palais des Festivals de Cannes",
+                            "img": "https://youimg1.tripcdn.com/target/100t1f000001gqblgB401.jpg",
+                            "description": "C’est ici que se tient chaque année, au mois de Mai, le Festival de Cannes, le plus grand festival de cinéma du monde. Il récompense les meilleurs films, avec le trophée prestigieux de la Palme d’Or.",
+                            "prix": 2,
+                            "familial": 2,
+                            "confort": 2,
+                            "sportivité": 1
+                        },
+                        {
+                            "nom": "Le Marché Forville",
+                            "img": "https://cannes.media.tourinsoft.eu/upload/01-marche-forville-SEMEC-FABRE-BD.jpg",
+                            "description": "Tous les matins, du mardi au dimanche, vous pourrez arpenter les allées de ce marché couvert et découvrir les étals des maraîchers, fromagers et poissonniers. De bons produits locaux et de qualité sont au rendez-vous!",
+                            "prix": 1,
+                            "familial": 1,
+                            "confort": 2,
+                            "sportivité": 1
+                        }
+                    ]
                 },
                 {
                     "nom": "Nice",
-                    "restaurants": [{}],
-                    "hotels": [{}],
-                    "lieux": [{}]
+                    "restaurants": [
+                        {
+                            "nom": "Chez Pipo",
+                            "img": "https://www.chezpipo.fr/assets/img/interface/link-groupes.jpg",
+                            "description": "Chez Pipo est connu des niçois comme un des meilleurs restaurants de socca depuis sa création. Les niçois viennent y déguster la socca de génération en génération et perpétuent ainsi une tradition qui dure depuis près de 100 ans.",
+                            "prix": 2,
+                            "familial": 2,
+                            "confort": 3,
+                            "sportivité": 1
+                        },
+                        {
+                            "nom": "Chez Palmyre",
+                            "img": "https://media-cdn.tripadvisor.com/media/photo-s/07/18/5d/cd/chez-palmyre-rue-droite.jpg",
+                            "description": "Des menus renouvelés régulièrement Produits de saisons et très bien cuisinés pour une addition imbattable Réservation obligatoire car petite salle mais plusieurs services.",
+                            "prix": 1,
+                            "familial": 2,
+                            "confort": 2,
+                            "sportivité": 1
+                        },
+                        {
+                            "nom": "La Villa d'Este",
+                            "img": "https://media-cdn.tripadvisor.com/media/photo-s/14/e5/71/98/salle.jpg",
+                            "description": "La tradition italienne qui rencontre la tradition niçoise depuis bientôt 30 ans la villa d’Este offre à ses clients ses meilleures pâtes et pizzas du sud de l’Italie.",
+                            "prix": 2,
+                            "familial": 2,
+                            "confort": 2,
+                            "sportivité": 1
+                        }
+                    ],
+                    "hotels": [
+                        {
+                            "nom": "Hôtel Aston La Scala Nice",
+                            "img": "https://media-cdn.tripadvisor.com/media/photo-s/06/e3/93/6c/hotel-aston-la-scala.jpg",
+                            "description": "Situé face à la promenade du Paillon, cet hôtel contemporain se trouve à 4 minutes à pied de l'arrêt de tramway Masséna.",
+                            "prix": 2,
+                            "familial": 2,
+                            "confort": 2,
+                            "sportivité": 1
+                        },
+                        {
+                            "nom": "Aparthotel Access Nice Acropolis",
+                            "img": "https://www.ahstatic.com/photos/8384_ho_00_p_1024x768.jpg",
+                            "description": "Situé à 2 minutes à pied de l'arrêt de tram Acropolis, cet hôtel modeste se trouve à 1,5 km de la plage Beau Rivage.",
+                            "prix": 1,
+                            "familial": 2,
+                            "confort": 1,
+                            "sportivité": 1
+                        }
+                    ],
+                    "lieux": [
+                        {
+                            "nom": "Musée de préhistoire de Terra Amata",
+                            "img": "https://static.apidae-tourisme.com/filestore/objets-touristiques/images/13/252/10025997.jpg",
+                            "description": "Partie du musée archéologique de Nice consacrée à la préhistoire avec sentier de découverte pour les enfants.",
+                            "prix": 1,
+                            "familial": 3,
+                            "confort": 2,
+                            "sportivité": 1
+                        },
+                        {
+                            "nom": "Musée National Marc Chagall",
+                            "img": "https://musees-nationaux-alpesmaritimes.fr/chagall/sites/chagall/files/styles/w1920_extra_wide/public/2020-11/IMG_7896-musee-chagall-nice-1920_960px-recadr%C3%A9e-13_0.jpg",
+                            "description": "Musée dédié aux tableaux et aux autres travaux de l'artiste français né en Russie Marc Chagall.",
+                            "prix": 1,
+                            "familial": 2,
+                            "confort": 2,
+                            "sportivité": 1
+                        }
+                    ]
                 },
                 {
-                    "nom": "Cap d'Ails",
-                    "restaurants": [{}],
-                    "hotels": [{}],
-                    "lieux": [{}]
+                    "nom": "Cap d'Ail",
+                    "restaurants": [
+                        {
+                            "nom": "Le Cabanon",
+                            "img": "https://media-cdn.tripadvisor.com/media/photo-s/1d/b3/53/7c/le-cabanon-cap-d-ail.jpg",
+                            "description": "Le Restaurant Le Cabanon Cap-d'Ail, vous accueille dans un lieu unique où chaque détail vous emporte le temps d'un repas. Parce qu'ici c'est ailleurs.",
+                            "prix": 3,
+                            "familial": 2,
+                            "confort": 3,
+                            "sportivité": 1
+                        },
+                        {
+                            "nom": "Restaurant La Pinède",
+                            "img": "https://media-cdn.tripadvisor.com/media/photo-s/03/ca/01/2c/restaurant-la-pinede.jpg",
+                            "description": "C’est à Cap d’Ail, à deux pas de Monaco et de l’Italie, que notre établissement vous fait la promesse d’un bonheur, gourmet et gourmand.",
+                            "prix": 2,
+                            "familial": 2,
+                            "confort": 2,
+                            "sportivité": 1
+                        }
+                    ],
+                    "hotels": [
+                        {
+                            "nom": "Hôtel de Monaco",
+                            "img": "https://media-cdn.tripadvisor.com/media/vr-splice-j/02/f3/79/50.jpg",
+                            "description": "Situé dans une rue en pente, cet hôtel élégant se trouve à 1,9 km de la plage du Marquet, à 3,5 km du jardin exotique de Monaco et à 4,6 km du palais des Princes de Monaco.",
+                            "prix": 2,
+                            "familial": 2,
+                            "confort": 3,
+                            "sportivité": 1
+                        },
+                        {
+                            "nom": "Villa Azur",
+                            "img": "https://www.villazurcapdail.com/wp-content/uploads/2019/12/appartamento_1_3_persone_07-1.jpg",
+                            "description": "La Villa Azur est proche de tout: la combinaison parfaite de confort, d’aventure, de culture et de plaisir.",
+                            "prix": 3,
+                            "familial": 3,
+                            "confort": 3,
+                            "sportivité": 1
+                        }
+                    ]
                 }
             ]
         },
         {
             "nom": "Toulon-Bordeaux",
-            "villes": [{}]
+            "villes": [
+                {
+                    "nom": "",
+                    "restaurants": [
+                        {
+                            "nom": "",
+                            "img": "",
+                            "description": "",
+                            "prix": 0,
+                            "familial": 0,
+                            "confort": 0,
+                            "sportivité": 0
+                        }
+                    ],
+                    "hotels": [
+                        {
+                            "nom": "",
+                            "img": "",
+                            "description": "",
+                            "prix": 0,
+                            "familial": 0,
+                            "confort": 0,
+                            "sportivité": 0
+                        }
+                    ],
+                    "lieux": [
+                        {
+                            "nom": "",
+                            "img": "",
+                            "description": "",
+                            "prix": 0,
+                            "familial": 0,
+                            "confort": 0,
+                            "sportivité": 0
+                        }
+                    ]
+                }
+            ]
         },
         {
             "nom": "Toulon-Lyon",
-            "villes": [{}]
+            "villes": [
+                {
+                    "nom": "",
+                    "restaurants": [
+                        {
+                            "nom": "",
+                            "img": "",
+                            "description": "",
+                            "prix": 0,
+                            "familial": 0,
+                            "confort": 0,
+                            "sportivité": 0
+                        }
+                    ],
+                    "hotels": [
+                        {
+                            "nom": "",
+                            "img": "",
+                            "description": "",
+                            "prix": 0,
+                            "familial": 0,
+                            "confort": 0,
+                            "sportivité": 0
+                        }
+                    ],
+                    "lieux": [
+                        {
+                            "nom": "",
+                            "img": "",
+                            "description": "",
+                            "prix": 0,
+                            "familial": 0,
+                            "confort": 0,
+                            "sportivité": 0
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

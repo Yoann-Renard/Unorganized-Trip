@@ -8,6 +8,8 @@
     <string name="newAccount">New to Unorganized Trip?</string>
     <string name="alrAccount">Already have an account?</string>
 
+    <string name="swapOpt">Changer cette option</string>
+
     <string name="coError">Erreur de connexion</string>
     <string name="text">texte</string>
     <string name="image">image</string>
