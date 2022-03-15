@@ -14,21 +14,21 @@ import fr.isen.unorganizedtripapp.network.TripDetails
 import org.json.JSONArray
 import org.json.JSONObject
 
-class TripDetailsAdapter (private val loc: ArrayList<TripDetails> ): RecyclerView.Adapter<TripDetailsAdapter.TripDetailViewHolder>() {
+class TripDetailsAdapter (private val loc: ArrayList<TripDetails> ): RecyclerView.Adapter<TripDetailsAdapter.TripDetailsViewHolder>() {
     lateinit var context: Context
 
-    class TripDetailViewHolder(binding: CellTripDetailsBinding): RecyclerView.ViewHolder(binding.root){
+    class TripDetailsViewHolder(binding: CellTripDetailsBinding): RecyclerView.ViewHolder(binding.root){
         val name: TextView = binding.detailName
         val time: TextView = binding.detailTime
         val image: ImageView = binding.detailImg
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TripDetailViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TripDetailsViewHolder {
         context = parent.context
-        return TripDetailViewHolder(CellTripDetailsBinding.inflate(LayoutInflater.from(context), parent, false))
+        return TripDetailsViewHolder(CellTripDetailsBinding.inflate(LayoutInflater.from(context), parent, false))
     }
 
-    override fun onBindViewHolder(holder: TripDetailViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: TripDetailsViewHolder, position: Int) {
         val locItem = loc[position]
         Log.d(ContentValues.TAG, "detail_name is: " + locItem.detail_name)
         holder.name.text = locItem.detail_name
