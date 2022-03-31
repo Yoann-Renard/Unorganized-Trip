@@ -9,6 +9,8 @@
     <string name="alrAccount">Already have an account?</string>
 
     <string name="swapOpt">Changer cette option</string>
+    <string name="viewSwap">Voir le lieu</string>
+    <string name="selectSwap">Sélectionner le lieu</string>
 
     <string name="coError">Erreur de connexion</string>
     <string name="text">texte</string>
