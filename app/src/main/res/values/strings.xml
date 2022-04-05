@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Unorganized Trip</string>
 
+    <string name="monaco">Monaco</string>
+    <string name="bordeaux">Bordeaux</string>
+    <string name="lyon">Lyon</string>
+
     <string name="signIn">Sign In</string>
     <string name="signUp">Sign Up</string>
     <string name="email">Email</string>

@@ -11,10 +11,11 @@ import androidx.recyclerview.widget.RecyclerView
 import fr.isen.unorganizedtripapp.databinding.CellTripDetailsBinding
 import com.squareup.picasso.Picasso;
 import fr.isen.unorganizedtripapp.network.TripDetails
+import fr.isen.unorganizedtripapp.network.Ville
 import org.json.JSONArray
 import org.json.JSONObject
 
-class TripDetailsAdapter (private val loc: ArrayList<TripDetails> ): RecyclerView.Adapter<TripDetailsAdapter.TripDetailsViewHolder>() {
+class TripDetailsAdapter (private val loc: List<Ville>, val cityClickListener: (Ville) -> Unit): RecyclerView.Adapter<TripDetailsAdapter.TripDetailsViewHolder>() {
     lateinit var context: Context
 
     class TripDetailsViewHolder(binding: CellTripDetailsBinding): RecyclerView.ViewHolder(binding.root){
@@ -30,12 +31,12 @@ class TripDetailsAdapter (private val loc: ArrayList<TripDetails> ): RecyclerVie
 
     override fun onBindViewHolder(holder: TripDetailsViewHolder, position: Int) {
         val locItem = loc[position]
-        Log.d(ContentValues.TAG, "detail_name is: " + locItem.detail_name)
+        /*Log.d(ContentValues.TAG, "detail_name is: " + locItem.detail_name)
         holder.name.text = locItem.detail_name
         holder.time.text = locItem.detail_time
         Picasso.get()
             .load(locItem.detail_img_url)
-            .into(holder.image)
+            .into(holder.image)*/
     }
 
     override fun getItemCount(): Int {
