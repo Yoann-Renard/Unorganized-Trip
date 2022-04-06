@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.swapChoiceActButton.setOnClickListener {
-            startActivity(Intent(this, SwapChoiceActivity::class.java))
+            startActivity(Intent(this, SwapTripActivity::class.java))
         }
     }
 }

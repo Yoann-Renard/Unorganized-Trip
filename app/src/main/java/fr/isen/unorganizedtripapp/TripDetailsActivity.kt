@@ -1,6 +1,7 @@
 package fr.isen.unorganizedtripapp
 
 import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -65,9 +66,18 @@ class TripDetailsActivity : AppCompatActivity() {
         }else{
             Log.d("FILE", "JSON file cannot be loaded.")
         }
+
+        listenClickSwap()
     }
 
-    fun getJsonDataFromAsset(context: Context, fileName: String): String? {
+    private fun listenClickSwap() {
+        binding.detailSwapButton.setOnClickListener {
+            val intent = Intent(this, SwapTripActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
+    private fun getJsonDataFromAsset(context: Context, fileName: String): String? {
         val jsonString: String
         try {
             jsonString = context.assets.open(fileName).bufferedReader().use {
@@ -80,7 +90,7 @@ class TripDetailsActivity : AppCompatActivity() {
         return jsonString
     }
 
-    fun parseResult(json: String?) {
+    private fun parseResult(json: String?) {
         val result = GsonBuilder().create().fromJson(json, RequestResult::class.java)
         val trip = result.data.first {
             it.budget == TripBudget.getBudget(currentBudget)

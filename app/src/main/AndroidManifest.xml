@@ -17,7 +17,7 @@
             android:name=".InProgressActivity"
             android:exported="false" />
         <activity
-            android:name=".SwapChoiceActivity"
+            android:name=".SwapTripActivity"
             android:exported="false" />
         <activity
             android:name=".LocationDetailsActivity"
