@@ -49,16 +49,21 @@ class TripDetailsActivity : AppCompatActivity() {
     lateinit var currentBudget: TripBudget
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        Log.d("ACTIVITY", "Activity created: TripDetails")
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_trip_details)
         binding = ActivityTripDetailsBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         currentDestination = intent.getSerializableExtra(HomeActivity.DestinationCity) as? TripDestination ?: TripDestination.MONACO
         currentBudget = intent.getSerializableExtra(HomeActivity.Budget) as? TripBudget ?: TripBudget.MOYEN
 
         val jsonFile = getJsonDataFromAsset(applicationContext, "data_monaco.json")
         if (jsonFile != null) {
+            Log.d("FILE", "JSON loaded.") // $jsonFile
             parseResult(jsonFile)
+        }else{
+            Log.d("FILE", "JSON file cannot be loaded.")
         }
     }
 
@@ -80,11 +85,9 @@ class TripDetailsActivity : AppCompatActivity() {
         val trip = result.data.first {
             it.budget == TripBudget.getBudget(currentBudget)
         }.stops
+        Log.d("PARSE", "List of stops: $trip")
 
-        trip.let {
-            Log.d("stop", it.toString())
-            binding.detailList.layoutManager = LinearLayoutManager(this)
-            binding.detailList.adapter = TripDetailsAdapter(trip)
-        }
+        binding.detailList.layoutManager = LinearLayoutManager(this)
+        binding.detailList.adapter = TripDetailsAdapter(trip)
     }
 }
