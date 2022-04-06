@@ -8,11 +8,12 @@
     <string name="budget">Budget</string>
     <string name="inProgress">Roadtrip en cours de développement</string>
 
-    <!--Trip details page-->
+    <!--Buttons-->
     <string name="validate">Valider</string>
     <string name="swapTrip">Tous les trajets</string>
 
-    <!--Swap trip page-->
+    <string name="backToTrip">Revenir aux détails du trajet</string>
+
     <string name="lowBudget">Voyage petit budget</string>
     <string name="classicBudget">Voyage classique</string>
     <string name="highBudget">Voyage prestige</string>

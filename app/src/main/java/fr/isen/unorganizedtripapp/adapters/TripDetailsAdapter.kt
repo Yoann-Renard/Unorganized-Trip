@@ -6,12 +6,13 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 import fr.isen.unorganizedtripapp.databinding.CellTripDetailsBinding
 import fr.isen.unorganizedtripapp.network.Stop
 
-class TripDetailsAdapter (private val listStop: List<Stop>): RecyclerView.Adapter<TripDetailsAdapter.TripDetailsViewHolder>() {
+class TripDetailsAdapter (private val listStop: List<Stop>, private val stopClickListener: (Stop) -> Unit): RecyclerView.Adapter<TripDetailsAdapter.TripDetailsViewHolder>() {
     lateinit var context: Context
 
     class TripDetailsViewHolder(binding: CellTripDetailsBinding): RecyclerView.ViewHolder(binding.root){
@@ -19,6 +20,7 @@ class TripDetailsAdapter (private val listStop: List<Stop>): RecyclerView.Adapte
         val stopCity: TextView = binding.detailCity
         val stopDesc: TextView = binding.detailDesc
         val stopImg: ImageView = binding.detailImg
+        val layout: CardView = binding.root
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TripDetailsViewHolder {
@@ -38,10 +40,13 @@ class TripDetailsAdapter (private val listStop: List<Stop>): RecyclerView.Adapte
             .get()
             .load(stop.img)
             .into(holder.stopImg)
+
+        holder.layout.setOnClickListener {
+            stopClickListener.invoke(stop)
+        }
     }
 
     override fun getItemCount(): Int {
-        val count = listStop.count()
-        return count
+        return listStop.count()
     }
 }

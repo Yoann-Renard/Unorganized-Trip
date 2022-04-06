@@ -10,21 +10,12 @@ import com.google.gson.GsonBuilder
 import fr.isen.unorganizedtripapp.adapters.TripDetailsAdapter
 import fr.isen.unorganizedtripapp.databinding.ActivityTripDetailsBinding
 import fr.isen.unorganizedtripapp.network.RequestResult
+import fr.isen.unorganizedtripapp.network.Stop
 import java.io.IOException
 
 
 enum class TripDestination {
     MONACO, BORDEAUX, LYON;
-
-    companion object {
-        fun getDest(trip: TripDestination): String {
-            return when (trip) {
-                MONACO -> "Monaco"
-                BORDEAUX -> "Bordeaux"
-                LYON -> "Lyon"
-            }
-        }
-    }
 }
 
 enum class TripBudget {
@@ -74,7 +65,8 @@ class TripDetailsActivity : AppCompatActivity() {
             startActivity(intent)
         }
         binding.detailValidButton.setOnClickListener {
-            // TODO: start activity nav/maps with budget parameter
+            val intent = Intent(this, MapsActivity::class.java)
+            startActivity(intent)
         }
     }
 
@@ -99,6 +91,20 @@ class TripDetailsActivity : AppCompatActivity() {
         Log.d("PARSE", "List of stops: $trip")
 
         binding.detailList.layoutManager = LinearLayoutManager(this)
-        binding.detailList.adapter = TripDetailsAdapter(trip)
+        binding.detailList.adapter = TripDetailsAdapter(trip) {
+            showDetails(it)
+        }
+    }
+
+    private fun showDetails(stop: Stop) {
+        val intent = Intent(this, PlaceInfoActivity::class.java)
+        intent.putExtra(SelectedPlace, stop)
+        intent.putExtra(Budget, currentBudget)
+        startActivity(intent)
+    }
+
+    companion object {
+        const val SelectedPlace = "SelectedPlace"
+        const val Budget = "Budget"
     }
 }

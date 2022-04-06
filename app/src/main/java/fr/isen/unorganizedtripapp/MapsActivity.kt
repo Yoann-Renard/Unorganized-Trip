@@ -8,7 +8,7 @@ import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
-import fr.isen.unorganizedtripapp.Data.Markers
+import fr.isen.unorganizedtripapp.data.Markers
 import fr.isen.unorganizedtripapp.databinding.ActivityMapsBinding
 
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback {

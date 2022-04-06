@@ -13,7 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UnorganizedTripApp"
         android:usesCleartextTraffic="true">
-
+        <activity
+            android:name=".PlaceInfoActivity"
+            android:exported="false" />
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 
@@ -31,16 +33,12 @@
 
         <activity
             android:name=".MapsActivity"
-            android:exported="false"
-            android:label="@string/title_activity_maps" />
+            android:exported="false" />
         <activity
             android:name=".InProgressActivity"
             android:exported="false" />
         <activity
             android:name=".SwapTripActivity"
-            android:exported="false" />
-        <activity
-            android:name=".NavigationActivity"
             android:exported="false" />
         <activity
             android:name=".TripDetailsActivity"

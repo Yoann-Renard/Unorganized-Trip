@@ -27,20 +27,20 @@
         app:layout_constraintVertical_bias="1.0">
 
         <Button
-            android:id="@+id/detailValidButton"
-            style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            android:text="@string/validate" />
-
-        <Button
             android:id="@+id/detailSwapButton"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:text="@string/swapTrip"
+            android:text="@string/swapTrip" />
+
+        <Button
+            android:id="@+id/detailValidButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/validate"
             android:translationX="20dp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
