@@ -10,8 +10,6 @@ import com.google.gson.GsonBuilder
 import fr.isen.unorganizedtripapp.adapters.TripDetailsAdapter
 import fr.isen.unorganizedtripapp.databinding.ActivityTripDetailsBinding
 import fr.isen.unorganizedtripapp.network.RequestResult
-import fr.isen.unorganizedtripapp.network.Stop
-import fr.isen.unorganizedtripapp.network.Trip
 import java.io.IOException
 
 
@@ -67,13 +65,16 @@ class TripDetailsActivity : AppCompatActivity() {
             Log.d("FILE", "JSON file cannot be loaded.")
         }
 
-        listenClickSwap()
+        listenClick()
     }
 
-    private fun listenClickSwap() {
+    private fun listenClick() {
         binding.detailSwapButton.setOnClickListener {
             val intent = Intent(this, SwapTripActivity::class.java)
             startActivity(intent)
+        }
+        binding.detailValidButton.setOnClickListener {
+            // TODO: start activity nav/maps with budget parameter
         }
     }
 

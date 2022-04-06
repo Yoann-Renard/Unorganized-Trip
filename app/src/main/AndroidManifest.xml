@@ -40,9 +40,6 @@
             android:name=".SwapTripActivity"
             android:exported="false" />
         <activity
-            android:name=".LocationDetailsActivity"
-            android:exported="false" />
-        <activity
             android:name=".NavigationActivity"
             android:exported="false" />
         <activity
@@ -50,12 +47,6 @@
             android:exported="false" />
         <activity
             android:name=".HomeActivity"
-            android:exported="false" />
-        <activity
-            android:name=".RegisterActivity"
-            android:exported="false" />
-        <activity
-            android:name=".LoginActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

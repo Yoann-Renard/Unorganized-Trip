@@ -14,8 +14,8 @@
 
     <!--Swap trip page-->
     <string name="lowBudget">Voyage petit budget</string>
-    <string name="classicBudget">Voyage standard</string>
-    <string name="highBudget">Voyage luxueux</string>
+    <string name="classicBudget">Voyage classique</string>
+    <string name="highBudget">Voyage prestige</string>
 
     <!--Default values-->
     <string name="coError">Erreur de connexion</string>
