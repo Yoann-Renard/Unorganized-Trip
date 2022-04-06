@@ -1,0 +1,171 @@
+{
+    "destination": [
+        {
+            "nom": "Monaco",
+            "trajets": [
+                {
+                    "budget": "faible",
+                    "url_maps": "https://www.google.com/maps/dir/ISEN+Yncr%C3%A9a+M%C3%A9diterran%C3%A9e+-+Campus+de+Toulon/L'Aventure/Port+de+Saint-Tropez/Hotel+Frejus+%7C+Sable+Et+Soleil+%7C+Chambre+Avec+Jacuzzi+Privatif+Port+Et+Plage/Brasserie+du+clos/La+Croisette+-+Cannes/Restaurant+Le+Vesuvio+-+Cannes/Mus%C3%A9e+de+Pr%C3%A9histoire+de+Terra+Amata/H%C3%B4tel+de+Monaco/Monaco/@43.4042096,4.4457282,7z/data=!3m1!4b1!4m65!4m64!1m5!1m1!1s0x12c91b0a44cc26c9:0x30eab5841931dc29!2m2!1d5.9396605!2d43.1206202!1m5!1m1!1s0x12cec76acde25d87:0x760c5650ea55096e!2m2!1d6.6404988!2d43.2723025!1m5!1m1!1s0x12cec71512ecbcab:0x2a2419a6acf9560f!2m2!1d6.636278!2d43.272517!1m5!1m1!1s0x12cebd58df655075:0xd6f3d878e20ec2c6!2m2!1d6.7465796!2d43.4255594!1m5!1m1!1s0x12cc203a21562a31:0xceed156bc9d2edde!2m2!1d6.7644598!2d43.6180248!1m5!1m1!1s0x12ce81185a18b7d3:0xc4f0f3e9f9104306!2m2!1d7.0269863!2d43.5490505!1m5!1m1!1s0x12ce81fd7ae7a9c9:0xc3f704a00603cea9!2m2!1d7.0298857!2d43.5481497!1m5!1m1!1s0x12cddac73ebb2cbb:0x8b7f87ea6e5fa825!2m2!1d7.28924!2d43.6978018!1m5!1m1!1s0x12cdc2df96694727:0x60a7264a57984203!2m2!1d7.3961338!2d43.7220807!1m5!1m1!1s0x12cdc26f7b3f8531:0x74f7784c3ac49cfc!2m2!1d7.4246158!2d43.7384176!2m2!1b1!2b1!3e0",
+                    "arrets": [
+                        {
+                            "nom": "L'Aventure",
+                            "ville": "Saint-Tropez",
+                            "img": "https://media-cdn.tripadvisor.com/media/photo-s/03/9a/8f/38/l-aventure.jpg",
+                            "description": "Petit restaurant typique style bistro petite terrasse."
+                        },
+                        {
+                            "nom": "Port de plaisance",
+                            "ville": "Saint-Tropez",
+                            "img": "https://bastideduport.com/wp-content/uploads/2021/04/vieux-port-a-saint-tropez-puzzle-1500-pieces.47063-1.fs_.jpg",
+                            "description": "L’un des plus beau port de France."
+                        },
+                        {
+                            "nom": "Hôtel Fréjus Sable et Soleil",
+                            "ville": "Fréjus",
+                            "img": "https://www.contact-hotel.com/hotels/facade1_550.jpg",
+                            "description": "L'hôtel Sable et Soleil est situé dans le centre, à 100 mètres de Port Fréjus et à 400 mètres des plages. Vous pourrez profiter des plages de sable fin de la Côte d'Azur."
+                        },
+                        {
+                            "nom": "Brasserie du clos",
+                            "ville": "Montauroux",
+                            "img": "https://media-cdn.tripadvisor.com/media/photo-s/10/a8/d5/c8/brasserie.jpg",
+                            "description": "Souhaitez-vous passer une soirée agréable et accueillante autour d’un repas français dans notre restaurant ? Dans notre restaurant Brasserie du clos, nous servons des plats variés et succulents que vous pourrez savourer dans une atmosphère authentique. Profitez des après-midi estivales dans notre terrasse animée."
+                        },
+                        {
+                            "nom": "La Croisette",
+                            "ville": "Cannes",
+                            "img": "https://www.lemoniteur.fr/mediatheque/9/2/7/002181729_620x393_c.jpg",
+                            "description": "Cette longue promenade en bord de mer est bordée par les pins et les palmiers, les boutiques de luxe et les hôtels mythiques."
+                        },
+                        {
+                            "nom": "Restaurant Le Vesuvio",
+                            "ville": "Cannes",
+                            "img": "https://media-cdn.tripadvisor.com/media/photo-s/18/dd/a4/65/le-restaurant.jpg",
+                            "description": "Restaurant sur la Croisette proche de l'hôtel Martinez."
+                        },
+                        {
+                            "nom": "Musée de préhistoire de Terra Amata",
+                            "ville": "Nice",
+                            "img": "https://static.apidae-tourisme.com/filestore/objets-touristiques/images/13/252/10025997.jpg",
+                            "description": "Partie du musée archéologique de Nice consacrée à la préhistoire avec sentier de découverte pour les enfants."
+                        },
+                        {
+                            "nom": "Hôtel de Monaco",
+                            "ville": "Cap d'Ail",
+                            "img": "https://media-cdn.tripadvisor.com/media/vr-splice-j/02/f3/79/50.jpg",
+                            "description": "Situé dans une rue en pente, cet hôtel élégant se trouve à 1,9 km de la plage du Marquet, à 3,5 km du jardin exotique de Monaco et à 4,6 km du palais des Princes de Monaco."
+                        }
+                    ]
+                },
+                {
+                    "budget": "moyen",
+                    "url_maps": "https://www.google.com/maps/dir/ISEN+Yncr%C3%A9a+M%C3%A9diterran%C3%A9e+-+Campus+de+Toulon,+Place+Georges+Pompidou,+Toulon/Brasserie+Trop%C3%A9zienne,+Rue+Henri+Seillon,+Saint-Tropez/Phare+de+Saint-Tropez,+Saint-Tropez/Brasserie+Jacques,+Fr%C3%A9jus/H%C3%B4tel+de+Flore,+Rue+de+la+Libert%C3%A9,+Saint-Rapha%C3%ABl/Les+Bambous+du+Mandarin,+Route+de+Draguignan,+Montauroux/Bobo+bistro,+Rue+du+Commandant+Andr%C3%A9,+Cannes/March%C3%A9+Forville/Chez+Pipo,+Rue+Bavastro,+Nice/Monaco/@43.4041773,4.4450706,7z/data=!3m1!4b1!4m64!4m63!1m5!1m1!1s0x12c91b0a44cc26c9:0x30eab5841931dc29!2m2!1d5.9396605!2d43.1206202!1m5!1m1!1s0x12cec78bef064683:0xc85f1d3017c2e6f4!2m2!1d6.6369503!2d43.2706936!1m5!1m1!1s0x12cec76d4dd50c3f:0xb3e6f150a726fc8c!2m2!1d6.6325779!2d43.2727028!1m5!1m1!1s0x12cebd5ee33d27cb:0x2c236b84ced2198b!2m2!1d6.7462596!2d43.4228337!1m5!1m1!1s0x12ce97ecdc56085d:0x996bfc633b831d23!2m2!1d6.7696489!2d43.4248885!1m5!1m1!1s0x12cc2120e5d0dd2b:0x89397487d8d52819!2m2!1d6.8172898!2d43.6278179!1m5!1m1!1s0x12ce8196ab6f8fe7:0xed55b37424884c7!2m2!1d7.0230428!2d43.5511448!1m5!1m1!1s0x12ce818bff953b87:0xc34461ffc2abf361!2m2!1d7.0120273!2d43.5520794!1m5!1m1!1s0x12cddab85e08cdd1:0x989d4cb7f5e64be0!2m2!1d7.2854676!2d43.6999181!1m5!1m1!1s0x12cdc26f7b3f8531:0x74f7784c3ac49cfc!2m2!1d7.4246158!2d43.7384176!2m1!1b1!3e0",
+                    "arrets": [
+                        {
+                            "nom": "Brasserie Tropézienne",
+                            "ville": "Saint-Tropez",
+                            "img": "https://brasserietropezienne.com/assets/static/masthead-homepage-style-two.979351d.057b9331781000b581394d1e4377c94f.jpg",
+                            "description": "Après 20 années passées sur Paris dans le milieu des Brasseries et Bistrots Parisiens, Ludovic Pinaud fils d’Helene Dufenieux ex Maître nageur de la Piscine Municipale portant son nom et Laurent Raphanel, deux enfants du Golfe de Saint Tropez reviennent sur leurs terres d’origine."
+                        },
+                        {
+                            "nom": "Phare de Saint-Tropez",
+                            "ville": "Saint-Tropez",
+                            "img": "https://www.golfe-saint-tropez-information.com/files/visitgolfe/mythique/2017/mythique-2017-15-0004.jpg",
+                            "description": "Le premier phare de Saint-Tropez, appelé « phare rouge » fut édifié en 1866 au bout de la grande jetée. C'était un feu fixe rouge plus puissant sur une tourelle cylindrique en maçonnerie de 15 m de hauteur. En 1932, il est électrifié, et devient un feu rouge à trois occultations toutes les quinze secondes."
+                        },
+                        {
+                            "nom": "Brasserie Jacques",
+                            "ville": "Fréjus",
+                            "img": "https://media-cdn.tripadvisor.com/media/photo-s/10/4d/03/3c/la-brasserie-jacques.jpg",
+                            "description": "Une brasserie sur le port de Fréjus à essayer ! Qualité et personnel professionnel garantis."
+                        },
+                        {
+                            "nom": "Hôtel de la Flore",
+                            "ville": "Saint-Raphaël",
+                            "img": "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/19/45/1945253_v9.jpeg",
+                            "description": "L’Hôtel « Le Flore » est un hôtel de charme et familial, classé 2 étoiles, composé de 11 chambres."
+                        },
+                        {
+                            "nom": "Le Jardin de Bambous du Mandarin",
+                            "ville": "Montauroux",
+                            "img": "https://www.paysdefayence.com/wp-content/uploads/wpetourisme/765049-diaporama.jpg",
+                            "description": "Un lieu magique où beauté, quiétude et bienveillance sont omniprésentes."
+                        },
+                        {
+                            "nom": "Bobo Bistro",
+                            "ville": "Cannes",
+                            "img": "https://media-cdn.tripadvisor.com/media/photo-s/1b/6a/e7/7e/notre-terrasse-exterieure.jpg",
+                            "description": "Pousser la porte du Bobo Bistro au cœur de Cannes, c’est pénétrer dans un univers chaleureux et convivial où l’équipe allie l’art du service et de la gastronomie pour satisfaire une clientèle locale et touristique."
+                        },
+                        {
+                            "nom": "Le Marché Forville",
+                            "ville": "Cannes",
+                            "img": "https://cannes.media.tourinsoft.eu/upload/01-marche-forville-SEMEC-FABRE-BD.jpg",
+                            "description": "Tous les matins, du mardi au dimanche, vous pourrez arpenter les allées de ce marché couvert et découvrir les étals des maraîchers, fromagers et poissonniers. De bons produits locaux et de qualité sont au rendez-vous!"
+                        },
+                        {
+                            "nom": "Chez Pipo",
+                            "ville": "Nice",
+                            "img": "https://www.chezpipo.fr/assets/img/interface/link-groupes.jpg",
+                            "description": "Chez Pipo est connu des niçois comme un des meilleurs restaurants de socca depuis sa création. Les niçois viennent y déguster la socca de génération en génération et perpétuent ainsi une tradition qui dure depuis près de 100 ans."
+                        }
+                    ]
+                },
+                {
+                    "budget": "eleve",
+                    "url_maps": "https://www.google.com/maps/dir/ISEN+Yncr%C3%A9a+M%C3%A9diterran%C3%A9e+-+Campus+de+Toulon/Restaurant+Le+Goustado+Tropezien/Airelles+Saint-Tropez,+Pan+Dei+Palais/Rte+de+Malpasset,+83600+Fr%C3%A9jus/Histoire+Sans+Faim/Palais+des+Festivals+et+des+Congr%C3%A8s+de+Cannes/Da+Laura+Cannes/H%C3%B4tel+Barri%C3%A8re+Le+Majestic+Cannes/Mus%C3%A9e+National+Marc+Chagall/Monaco/@43.4040702,4.4395875,7z/data=!3m1!4b1!4m65!4m64!1m5!1m1!1s0x12c91b0a44cc26c9:0x30eab5841931dc29!2m2!1d5.9396605!2d43.1206202!1m5!1m1!1s0x12cec7154996f97b:0xbb21ee5d33ca6e05!2m2!1d6.641106!2d43.2714872!1m5!1m1!1s0x12cec7153ff9d467:0x5d66ac569e4e5eff!2m2!1d6.6410408!2d43.2706989!1m5!1m1!1s0x12cea2835615fb63:0x5a4190dc02f3d511!2m2!1d6.7434775!2d43.4571777!1m5!1m1!1s0x12cc203a1cadf005:0x82e01a5c080cd343!2m2!1d6.765158!2d43.6189579!1m5!1m1!1s0x12ce8191f03733bb:0xafb954664bccc079!2m2!1d7.0179622!2d43.5507813!1m5!1m1!1s0x12ce81924697bc6f:0x50f16c70687b75a8!2m2!1d7.0193917!2d43.5531611!1m5!1m1!1s0x12ce81919d64a1ef:0xba6d9c9555787f2f!2m2!1d7.0200078!2d43.551358!1m5!1m1!1s0x12cddaabb8e8da23:0x3423b752038161aa!2m2!1d7.269356!2d43.7091523!1m5!1m1!1s0x12cdc26f7b3f8531:0x74f7784c3ac49cfc!2m2!1d7.4246158!2d43.7384176!2m2!1b1!2b1!3e0",
+                    "arrets": [
+                        {
+                            "nom": "Restaurant Le Goustado Tropézien",
+                            "ville": "Saint-Tropez",
+                            "img": "https://media-cdn.tripadvisor.com/media/photo-s/11/69/ea/d7/le-goustado-tropezien.jpg",
+                            "description": "Restauration rapide sur place ou à emporter. produits frais, fait maison."
+                        },
+                        {
+                            "nom": "Airelles Saint-Tropez, Pan Dei Palais",
+                            "ville": "Saint-Tropez",
+                            "img": "https://www.mjlselect.com/wp-content/uploads/2019/10/pan-dei-2013-625p-e1613534640438.jpg",
+                            "description": "Installé dans un bâtiment de charme de 1835 situé à 6 minutes à pied du port de plaisance de Saint-Tropez."
+                        },
+                        {
+                            "nom": "Site de Malpasset",
+                            "ville": "Fréjus",
+                            "img": "https://upload.wikimedia.org/wikipedia/commons/8/82/Barrage_de_Malpasset_2014.JPG",
+                            "description": "Belle balade, le site est peu aménagé et garde un côté sauvage."
+                        },
+                        {
+                            "nom": "Histoire sans faim",
+                            "ville": "Montauroux",
+                            "img": "https://media-cdn.tripadvisor.com/media/photo-s/19/37/79/b2/photo0jpg.jpg",
+                            "description": "Un petit restaurant familial où déjeuner et dîner délicieusement. Une viande exceptionnelle importée tout droit du charolais."
+                        },
+                        {
+                            "nom": "Le Palais des Festivals de Cannes",
+                            "ville": "Cannes",
+                            "img": "https://youimg1.tripcdn.com/target/100t1f000001gqblgB401.jpg",
+                            "description": "C’est ici que se tient chaque année, au mois de Mai, le Festival de Cannes, le plus grand festival de cinéma du monde. Il récompense les meilleurs films, avec le trophée prestigieux de la Palme d’Or."
+                        },
+                        {
+                            "nom": "Da Laura Cannes",
+                            "ville": "Cannes",
+                            "img": "https://www.jacquesgantie.com/wp-content/uploads/2020/06/IMG_3143-1024x626.jpg",
+                            "description": "Un bongo de finesse et de goût. La côtelette milanaise est sublime. Les raviolis à la truffe une merveille. La panna cotta parfaite. Une maison de qualité."
+                        },
+                        {
+                            "nom": "Hôtel Barrière Le Majestic Cannes",
+                            "ville": "Cannes",
+                            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Fa%C3%A7ade_Majestic.tif/lossy-page1-1200px-Fa%C3%A7ade_Majestic.tif.jpg",
+                            "description": "Offrant une vue sur la mer et situé à 2 minutes à pied de la plage, ce célèbre hôtel de luxe se trouve également à 4 minutes du casino Barrière Le Croisette et à 1 km du musée de la Castre."
+                        },
+                        {
+                            "nom": "Musée National Marc Chagall",
+                            "ville": "Nice",
+                            "img": "https://musees-nationaux-alpesmaritimes.fr/chagall/sites/chagall/files/styles/w1920_extra_wide/public/2020-11/IMG_7896-musee-chagall-nice-1920_960px-recadr%C3%A9e-13_0.jpg",
+                            "description": "Musée dédié aux tableaux et aux autres travaux de l'artiste français né en Russie Marc Chagall."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -42,9 +42,9 @@ enum class TripDestination {
 
         fun getTrip(trip: TripDestination): String {
             return when (trip) {
-                MONACO -> "Monaco"
-                BORDEAUX -> "Bordeaux"
-                LYON -> "Lyon"
+                MONACO -> "Toulon-Monaco"
+                BORDEAUX -> "Toulon-Bordeaux"
+                LYON -> "Toulon-Lyon"
             }
         }
     }
@@ -64,7 +64,7 @@ class TripDetailsActivity : AppCompatActivity() {
 
         currentDestination = intent.getSerializableExtra(HomeActivity.DestinationCity) as? TripDestination ?: TripDestination.MONACO
 
-        val jsonFile = getJsonDataFromAsset(applicationContext, "database.json")
+        val jsonFile = getJsonDataFromAsset(applicationContext, "new_data.json")
         if (jsonFile != null) {
             Log.d("data", jsonFile)
         }
