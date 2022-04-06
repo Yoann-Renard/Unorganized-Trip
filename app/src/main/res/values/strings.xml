@@ -13,4 +13,5 @@
     <string name="coError">Erreur de connexion</string>
     <string name="text">texte</string>
     <string name="image">image</string>
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>
