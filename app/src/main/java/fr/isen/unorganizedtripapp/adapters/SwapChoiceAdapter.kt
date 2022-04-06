@@ -8,11 +8,9 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 import fr.isen.unorganizedtripapp.databinding.CellSwapChoiceBinding
-import fr.isen.unorganizedtripapp.network.SwapChoice
 
 class SwapChoiceAdapter (/*private val choice: ArrayList<SwapChoice>*/): RecyclerView.Adapter<SwapChoiceAdapter.SwapChoiceViewHolder>() {
     lateinit var context: Context
-    private lateinit var choice: ArrayList<SwapChoice>
 
     class SwapChoiceViewHolder(binding: CellSwapChoiceBinding): RecyclerView.ViewHolder(binding.root) {
         val name: TextView = binding.swapName
@@ -25,16 +23,16 @@ class SwapChoiceAdapter (/*private val choice: ArrayList<SwapChoice>*/): Recycle
     }
 
     override fun onBindViewHolder(holder: SwapChoiceViewHolder, position: Int) {
-        val chosenItem = choice[position]
+        /*val chosenItem = choice[position]
 
         holder.name.text = chosenItem.detail_name
         Picasso
             .get()
             .load(chosenItem.detail_img_url)
-            .into(holder.img)
+            .into(holder.img)*/
     }
 
     override fun getItemCount(): Int {
-        return choice.count()
+        return 0 //choice.count()
     }
 }

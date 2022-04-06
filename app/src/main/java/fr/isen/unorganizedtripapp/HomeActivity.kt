@@ -12,28 +12,38 @@ class HomeActivity : AppCompatActivity() {
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        listenClickTrip()
+        listenClick()
     }
 
-    fun listenClickTrip() {
-        binding.monaco.setOnClickListener {
-            showTrip(TripDestination.MONACO)
-        }
-        binding.bordeaux.setOnClickListener {
-            showTrip(TripDestination.BORDEAUX)
-        }
-        binding.lyon.setOnClickListener {
-            showTrip(TripDestination.LYON)
+    private fun listenClick() {
+        binding.validButton.setOnClickListener {
+            if (binding.monacoButton.isChecked) {
+                when (binding.budgetSeekBar.progress) {
+                    1 -> {
+                        showTrip(TripDestination.MONACO, TripBudget.FAIBLE)
+                    }
+                    2 -> {
+                        showTrip(TripDestination.MONACO, TripBudget.MOYEN)
+                    }
+                    3 -> {
+                        showTrip(TripDestination.MONACO, TripBudget.ELEVE)
+                    }
+                }
+            } else if (binding.bordeauxButton.isChecked || binding.lyonButton.isChecked) {
+                startActivity(Intent(this, InProgressActivity::class.java))
+            }
         }
     }
 
-    private fun showTrip(city: TripDestination) {
+    private fun showTrip(destination: TripDestination, budget: TripBudget) {
         val intent = Intent(this, TripDetailsActivity::class.java)
-        intent.putExtra(DestinationCity, city)
+        intent.putExtra(DestinationCity, destination)
+        intent.putExtra(Budget, budget)
         startActivity(intent)
     }
 
     companion object {
         const val DestinationCity = "DestinationCity"
+        const val Budget = "Budget"
     }
 }

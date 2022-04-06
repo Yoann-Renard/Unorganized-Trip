@@ -16,29 +16,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.058" />
-
-    <Button
-        android:id="@+id/loginActButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Login"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/homeActButton"
-        app:layout_constraintVertical_bias="0.055" />
-
-    <Button
-        android:id="@+id/registerActButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="register"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loginActButton"
-        app:layout_constraintVertical_bias="0.093" />
+        app:layout_constraintVertical_bias="0.17000002" />
 
     <Button
         android:id="@+id/navActButton"
@@ -48,8 +26,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/registerActButton"
-        app:layout_constraintVertical_bias="0.112" />
+        app:layout_constraintTop_toBottomOf="@+id/homeActButton"
+        app:layout_constraintVertical_bias="0.18" />
 
     <Button
         android:id="@+id/tripDetailsActButton"
@@ -61,31 +39,18 @@
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/navActButton"
-        app:layout_constraintVertical_bias="0.123" />
-
-    <Button
-        android:id="@+id/locDetailsActButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="location details"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tripDetailsActButton"
-        app:layout_constraintVertical_bias="0.207" />
+        app:layout_constraintVertical_bias="0.29000002" />
 
     <Button
         android:id="@+id/swapChoiceActButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="43dp"
         android:text="swap choice"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/locDetailsActButton"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/tripDetailsActButton"
+        app:layout_constraintVertical_bias="0.39999998" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

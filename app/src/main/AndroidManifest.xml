@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="fr.isen.unorganizedtripapp">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UnorganizedTripApp"
         android:usesCleartextTraffic="true">
+        <activity
+            android:name=".InProgressActivity"
+            android:exported="false" />
         <activity
             android:name=".SwapChoiceActivity"
             android:exported="false" />

@@ -1,21 +1,15 @@
 <resources>
     <string name="app_name">Unorganized Trip</string>
 
+    <!--Home page-->
     <string name="monaco">Monaco</string>
     <string name="bordeaux">Bordeaux</string>
     <string name="lyon">Lyon</string>
+    <string name="budget">Budget</string>
+    <string name="validate">Valider</string>
+    <string name="inProgress">Roadtrip en cours de développement</string>
 
-    <string name="signIn">Sign In</string>
-    <string name="signUp">Sign Up</string>
-    <string name="email">Email</string>
-    <string name="password">Password</string>
-    <string name="newAccount">New to Unorganized Trip?</string>
-    <string name="alrAccount">Already have an account?</string>
-
-    <string name="swapOpt">Changer cette option</string>
-    <string name="viewSwap">Voir le lieu</string>
-    <string name="selectSwap">Sélectionner le lieu</string>
-
+    <!--Default values-->
     <string name="coError">Erreur de connexion</string>
     <string name="text">texte</string>
     <string name="image">image</string>

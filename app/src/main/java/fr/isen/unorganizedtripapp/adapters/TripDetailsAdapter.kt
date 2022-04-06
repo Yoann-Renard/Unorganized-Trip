@@ -1,27 +1,23 @@
 package fr.isen.unorganizedtripapp.adapters
 
-import android.content.ContentValues
 import android.content.Context
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.squareup.picasso.Picasso
 import fr.isen.unorganizedtripapp.databinding.CellTripDetailsBinding
-import com.squareup.picasso.Picasso;
-import fr.isen.unorganizedtripapp.network.TripDetails
-import fr.isen.unorganizedtripapp.network.Ville
-import org.json.JSONArray
-import org.json.JSONObject
+import fr.isen.unorganizedtripapp.network.Stop
 
-class TripDetailsAdapter (private val loc: List<Ville>, val cityClickListener: (Ville) -> Unit): RecyclerView.Adapter<TripDetailsAdapter.TripDetailsViewHolder>() {
+class TripDetailsAdapter (private val listStop: List<Stop>): RecyclerView.Adapter<TripDetailsAdapter.TripDetailsViewHolder>() {
     lateinit var context: Context
 
     class TripDetailsViewHolder(binding: CellTripDetailsBinding): RecyclerView.ViewHolder(binding.root){
-        val name: TextView = binding.detailName
-        val time: TextView = binding.detailTime
-        val image: ImageView = binding.detailImg
+        val stopName: TextView = binding.detailName
+        val stopCity: TextView = binding.detailCity
+        val stopDesc: TextView = binding.detailDesc
+        val stopImg: ImageView = binding.detailImg
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TripDetailsViewHolder {
@@ -30,16 +26,18 @@ class TripDetailsAdapter (private val loc: List<Ville>, val cityClickListener: (
     }
 
     override fun onBindViewHolder(holder: TripDetailsViewHolder, position: Int) {
-        val locItem = loc[position]
-        /*Log.d(ContentValues.TAG, "detail_name is: " + locItem.detail_name)
-        holder.name.text = locItem.detail_name
-        holder.time.text = locItem.detail_time
-        Picasso.get()
-            .load(locItem.detail_img_url)
-            .into(holder.image)*/
+        val stop = listStop[position]
+
+        holder.stopName.text = stop.name
+        holder.stopCity.text = stop.city
+        holder.stopDesc.text = stop.desc
+        Picasso
+            .get()
+            .load(stop.img)
+            .into(holder.stopImg)
     }
 
     override fun getItemCount(): Int {
-        return loc.count()
+        return listStop.count()
     }
 }

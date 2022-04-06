@@ -16,24 +16,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, HomeActivity::class.java))
         }
 
-        binding.loginActButton.setOnClickListener {
-            startActivity(Intent(this, LoginActivity::class.java))
-        }
-
-        binding.registerActButton.setOnClickListener {
-            startActivity(Intent(this, RegisterActivity::class.java))
-        }
-
         binding.navActButton.setOnClickListener {
             startActivity(Intent(this, NavigationActivity::class.java))
         }
 
         binding.tripDetailsActButton.setOnClickListener {
             startActivity(Intent(this, TripDetailsActivity::class.java))
-        }
-
-        binding.locDetailsActButton.setOnClickListener {
-            startActivity(Intent(this, LocationDetailsActivity::class.java))
         }
 
         binding.swapChoiceActButton.setOnClickListener {
