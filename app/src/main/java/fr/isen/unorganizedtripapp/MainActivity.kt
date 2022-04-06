@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.navActButton.setOnClickListener {
-            startActivity(Intent(this, NavigationActivity::class.java))
+            startActivity(Intent(this, MapsActivity::class.java))
         }
 
         binding.tripDetailsActButton.setOnClickListener {
