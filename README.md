@@ -6,7 +6,7 @@ Il suffit de sélectionner une ville de départ et une ville d'arrivée, et l'ap
 Preuve de concept faite avec Adalo: https://previewer.adalo.com/b8c3bf1b-a917-4382-af99-0157e52f51e2
 
 ## Techno
-L'application est codée en Kotlin sur Android Studio pour Marshmallow 6.0, API v23.
+L'application est codée en Kotlin sur [Android Studio](https://developer.android.com/studio) pour Marshmallow 6.0, API v23.
 
 ## Crédits
 
