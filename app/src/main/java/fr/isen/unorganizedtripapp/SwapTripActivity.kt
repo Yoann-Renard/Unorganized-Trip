@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import fr.isen.unorganizedtripapp.databinding.ActivitySwapTripBinding
 
-class SwapTripActivity : AppCompatActivity() {
+class SwapTripActivity : MenuActivity() {
     lateinit var binding: ActivitySwapTripBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

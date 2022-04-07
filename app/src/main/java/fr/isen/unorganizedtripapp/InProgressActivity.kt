@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import fr.isen.unorganizedtripapp.databinding.ActivityInProgressBinding
 
-class InProgressActivity : AppCompatActivity() {
+class InProgressActivity : MenuActivity() {
     lateinit var binding: ActivityInProgressBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

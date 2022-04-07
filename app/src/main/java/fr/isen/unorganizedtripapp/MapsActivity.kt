@@ -11,7 +11,7 @@ import com.google.android.gms.maps.model.MarkerOptions
 import fr.isen.unorganizedtripapp.data.Markers
 import fr.isen.unorganizedtripapp.databinding.ActivityMapsBinding
 
-class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
+class MapsActivity : MenuActivity(), OnMapReadyCallback {
 
     private lateinit var mMap: GoogleMap
     private lateinit var binding: ActivityMapsBinding
@@ -52,7 +52,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions().position(LatLng(43.73934414660515, 7.425547411308378)).title("Monaco"))
         val zoomLevel = 8.0f
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(LatLng(43.12235632952049, 5.938399225476811), zoomLevel))
-        val currentBudget: TripBudget = intent.getSerializableExtra(HomeActivity.Budget) as? TripBudget ?: TripBudget.MOYEN
+        val currentBudget: TripBudget = intent.getSerializableExtra(TripDetailsActivity.Budget) as TripBudget
         val makers = Markers(currentBudget)
         makers.list.forEach{ (name, floats) ->
             run {
@@ -61,8 +61,5 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                 )
             }
         }
-
     }
-
-
 }

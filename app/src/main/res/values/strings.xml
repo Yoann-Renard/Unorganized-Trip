@@ -2,6 +2,8 @@
     <string name="app_name">Unorganized Trip</string>
 
     <!--Home page-->
+    <string name="title">Bienvenue sur Unorganized Trip!</string>
+    <string name="choice">Sélectionnez une destination et un budget :</string>
     <string name="monaco">Monaco</string>
     <string name="bordeaux">Bordeaux</string>
     <string name="lyon">Lyon</string>

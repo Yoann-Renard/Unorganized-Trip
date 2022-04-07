@@ -1,14 +1,12 @@
 package fr.isen.unorganizedtripapp
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.squareup.picasso.Picasso
 import fr.isen.unorganizedtripapp.databinding.ActivityPlaceInfoBinding
-import fr.isen.unorganizedtripapp.network.Stop
-import java.util.zip.CRC32
+import fr.isen.unorganizedtripapp.data.Stop
 
-class PlaceInfoActivity : AppCompatActivity() {
+class PlaceInfoActivity : MenuActivity() {
     lateinit var binding: ActivityPlaceInfoBinding
     lateinit var currentPlace: Stop
     lateinit var currentBudget: TripBudget

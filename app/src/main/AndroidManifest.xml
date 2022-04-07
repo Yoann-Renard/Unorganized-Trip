@@ -15,7 +15,8 @@
         android:usesCleartextTraffic="true">
         <activity
             android:name=".PlaceInfoActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Information"/>
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 
@@ -33,21 +34,22 @@
 
         <activity
             android:name=".MapsActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Navigation"/>
         <activity
             android:name=".InProgressActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="En développement..."/>
         <activity
             android:name=".SwapTripActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Autres trajets"/>
         <activity
             android:name=".TripDetailsActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Détails"/>
         <activity
             android:name=".HomeActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

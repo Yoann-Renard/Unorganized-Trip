@@ -1,4 +1,4 @@
-package fr.isen.unorganizedtripapp.network
+package fr.isen.unorganizedtripapp.data
 
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable

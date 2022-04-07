@@ -2,15 +2,14 @@ package fr.isen.unorganizedtripapp
 
 import android.content.Context
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.gson.GsonBuilder
 import fr.isen.unorganizedtripapp.adapters.TripDetailsAdapter
 import fr.isen.unorganizedtripapp.databinding.ActivityTripDetailsBinding
-import fr.isen.unorganizedtripapp.network.RequestResult
-import fr.isen.unorganizedtripapp.network.Stop
+import fr.isen.unorganizedtripapp.data.RequestResult
+import fr.isen.unorganizedtripapp.data.Stop
 import java.io.IOException
 
 
@@ -33,7 +32,7 @@ enum class TripBudget {
 }
 
 
-class TripDetailsActivity : AppCompatActivity() {
+class TripDetailsActivity : MenuActivity() {
     lateinit var binding: ActivityTripDetailsBinding
     lateinit var currentDestination: TripDestination
     lateinit var currentBudget: TripBudget
@@ -66,6 +65,7 @@ class TripDetailsActivity : AppCompatActivity() {
         }
         binding.detailValidButton.setOnClickListener {
             val intent = Intent(this, MapsActivity::class.java)
+            intent.putExtra(Budget, currentBudget)
             startActivity(intent)
         }
     }

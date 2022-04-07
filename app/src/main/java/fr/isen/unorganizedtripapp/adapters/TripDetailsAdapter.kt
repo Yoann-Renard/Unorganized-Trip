@@ -10,7 +10,7 @@ import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 import fr.isen.unorganizedtripapp.databinding.CellTripDetailsBinding
-import fr.isen.unorganizedtripapp.network.Stop
+import fr.isen.unorganizedtripapp.data.Stop
 
 class TripDetailsAdapter (private val listStop: List<Stop>, private val stopClickListener: (Stop) -> Unit): RecyclerView.Adapter<TripDetailsAdapter.TripDetailsViewHolder>() {
     lateinit var context: Context
